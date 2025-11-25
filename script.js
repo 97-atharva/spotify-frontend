@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://spotify-backend-5r24.onrender.com";
 
 let audio = new Audio();
 let currentSong = null;
