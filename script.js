@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://spotify-backend-t63v.onrender.com";
 
 let audio = new Audio();
 let currentSong = null;
@@ -45,7 +45,7 @@ function playSongFromCard(card) {
 
     if (!fileName) return;
 
-    const url = `${API_BASE}/audio/${fileName}`;
+    const url = `https://spotify-backend-t63v.onrender.com/audio/${fileName}`;
 
     if (currentSong === url) {
         if (audio.paused) audio.play();
